@@ -1,0 +1,117 @@
+<!Doctype html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<title>Registro de Estudiantes</title>
+		<meta name="Viewport" content="width=device-width, user-scalable=no initial-scale=1.0">		
+		<link href="Css/bootstrap.min.css" rel="Stylesheet" type="text/css">
+		<link href="Css/style.css" rel="Stylesheet" type="text/css">
+
+	</head>
+
+	
+
+	<body>
+		
+	<div id="particles-js"></div>
+
+		<div class="header">
+			 
+
+				<div id="logo"><img src="./icons/W-U.svg" width="140px" height="140px"/></div>		
+				<h1>Registro de Estudiantes</h1>
+
+		 		
+		</div>
+
+		<div class="container">
+
+			<div class="form">
+
+				<form method="post">
+
+					<fieldset>
+
+						<label>Codigo</label>
+						<input type="text" class="form-control" id="code" onclick="changeColor()" placeholder="0000" autofocus />
+						 
+
+						<label>Nombre</label>
+						<input type="text" class="form-control" size="80" id="name" onclick="changeColor()" placeholder="name" autofocus />
+
+					
+						 
+
+						<label>Nota</label>
+						<input type="text" class="form-control" id="score" onclick="changeColor()" placeholder="00" autofocus />
+
+				
+							
+					<div id="botones">
+
+
+					<input type="button" value="Registrar" id="registrar" class="btn">
+
+					<input type="button" value="Nota Menor" id="nota menor" class="btn">
+
+					<input type="button" value="Nota Mayor" id="nota mayor" class="btn">
+
+					<input type="button" value="Promedio" id="promedio" class="btn">
+
+				</div>
+				</fieldset>
+
+			</form>
+				
+		</div>
+
+	<div class="table">	
+
+		<div class="cabecera">
+
+		   <h1>Listado de Estudiantes</h1>
+
+		</div>
+	
+		<div id="Mytable">
+			
+			<table>
+
+				<thead>
+				<tr>
+					<th>Código</th>
+					<th>Estudiantes</th>
+					<th>Nota</th>
+				</tr>
+				</thead>
+				
+				<tbody id="registro">
+					
+				</tbody>
+				
+			</table>
+
+		</div>
+	</div>
+	
+</div>
+
+<footer>
+
+		<div class="copy">
+
+			<p>World-University &copy All right Reserved</p>
+			<a href=""><img src="./icons/gitcolor.svg" alt="view from Git"/></a>
+			
+		</div>	
+
+	</footer>
+
+		</body>	
+
+		<script src="./js/particles.js"></script>
+		<script src="./js/app.js"></script>
+		<script src="./js/index.js"></script>
+
+		</html>

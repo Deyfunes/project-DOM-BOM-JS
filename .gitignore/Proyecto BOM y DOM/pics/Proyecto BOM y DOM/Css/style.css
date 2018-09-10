@@ -1,0 +1,816 @@
+@charset "utf-8";
+/*CSS Document*/
+
+
+ @media(min-width: 801px){ 
+
+
+body{
+	width: 100%; 
+	height: 100%;
+	background-image: url(../pics/galaxy.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	 
+}
+
+.container{
+	width: 90%;
+	height: 550px;
+	 
+}
+
+#particles-js{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	background-size: 100% 100%;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+}
+
+.header{
+	width: 100%;	 
+	background: -webkit-linear-gradient(top, #7276a8 20%, rgb(179, 192, 186) 80%);
+	height: 150px;
+	margin: 2% 0% 2% 0%;
+}
+ 
+
+.header h1{
+	color:transparent;
+	text-align: center;
+	font: 50px "Perpetua TITLING MT";
+	padding: 20px 0px 10px 0px; 
+	margin: 5px 5px 10px 5px;
+	background: -webkit-linear-gradient(top, #2697d8 30%, rgb(53, 180, 59) 70%); 
+	width: 80%;
+	float: left;
+	height: 130px; 
+	position: relative;
+	-webkit-background-clip:text;
+	 	 
+}
+#logo{
+	width: 13%;
+	float: left;
+	height: 120px;
+ 
+	margin: 2px 2px 3px 2px ;
+}
+
+#logo  img{
+	width: 100%;
+	height: 110px;
+	position: relative;
+	float:left;
+}
+
+
+ 
+fieldset{
+	width:80%;
+	height: 500px;
+	margin: 5px auto 5px auto;
+	 
+}
+
+.form{
+	width: 48%;	 
+	float: left;
+	border-radius: 3px;
+	position: relative; 
+	background: -webkit-linear-gradient(top, hsla(210, 60%, 70%, 0.7) 30%, hsla(352, 46%, 68%, 0.7) 70%);
+}
+
+ 
+form{
+	width:  100%;
+	margin: auto;
+
+ }
+
+label{
+	color: #3640cf;
+	width: 30%;
+	height: 30px;
+	margin: 2% 35% 2% 35%;
+	background: #bbab7ea8; 
+	padding: 2px 4px 6px 2px;
+	text-align: center;
+	border: 1px solid rgb(38, 173, 226);
+	border-radius: 3px;
+	font: 20px "Maiandra GD";
+
+}
+
+.form-control{
+	text-align: center;
+	margin: auto;
+	width: 25%;
+	background:  hsla(180, 34%, 67%, 0.5);
+}
+#name{
+	width: 75%;
+	margin: auto;
+}
+ 
+.form-control:hover{
+	background-color: hsla(140, 57%, 77%, 0.7);
+	border: 2px blue solid;
+}
+
+
+hr{
+ 
+width: 50%;
+margin: 2px auto 10px auto;
+border: 0.5px solid rgb(94, 255, 0);
+
+}
+
+ #botones{
+	margin: 10px auto 2px auto;
+	width:90%;
+	height:100px;
+ }
+
+#botones  input{
+	font: 1.5vw bold "Candara";
+	background: hsla(165, 70%, 49%, 0.3);
+	width: 45%;
+	color: rgb(9, 232, 240);
+	margin: 3px;
+	float: left;
+	border: 3px outset rgb(17, 134, 180);
+}
+
+ 
+#botones  input:hover{
+	margin: 3px;
+	font: 1.2vw "Verdana" bold;
+	border: inset #33FF00 3px;
+	float: left;
+	background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+	color: rgb(0, 255, 64);
+}
+
+.table{
+	width: 50%;
+	float: right;
+	position: relative;
+	border-radius: 5px;
+	margin: 0px 5px 10px 5px;
+	height: 220px;
+}
+.cabecera{
+	width: 100%;
+	background: hsla(298, 39%, 83%, 0.4);
+	height: 60px;
+}
+.cabecera  h1{
+
+	width: 100%;
+	font: 35px "Maiandra GD";
+	color:transparent;
+	text-align: center;
+	height: 45px;
+	background: -webkit-linear-gradient(top, rgb(72, 103, 197) 20%, rgb(151, 148, 137) 80%);
+	-webkit-background-clip: text;
+	 
+}
+
+#Mytable{
+	width: 100%;
+	height: 150px;
+	 
+}
+thead{
+	border:none; 
+	background: hsla(298, 39%, 83%, 0.4);
+	font: 1.5vw "Colona MT";
+}
+
+#registro{
+	width: 100%;
+	height: 130px;
+	font:1.4vw "Calisto MT";
+	color: #4cb3e2;
+	margin: 2px 5px 2px 0px;
+	background: hsla(298, 39%, 83%, 0.4);
+	border: 1px solid orange;
+	border-radius: 5px;
+	text-align: left;
+}
+
+tbody{
+width: 100%;
+color: #20c3d8;
+border: 1px solid rgb(168, 115, 15);
+height: auto;
+position: relative;
+}
+
+th{
+	width: 30%;
+	height: 20px;
+	font: 20px "Candara";
+	margin: 0px 20px 0px 0px;
+	color: rgb(152, 206, 101); 
+}
+
+th:nth-child(even) {
+	width: 60%;
+	height: 20px;
+ 
+}
+table{
+	width: 100%;
+	border-radius: 4px;
+}
+
+footer{
+	width:100%;
+	float: left;
+	background: -webkit-linear-gradient(top, rgb(179, 192, 186) 20%,  #7276a8 80%);
+ 	margin: 30px 0px 15px 0px; 
+	height: 165px;
+}
+
+p{
+ 
+	width: 90%;
+	height: 100px;
+	color: transparent;
+	text-align: center;
+	margin: 0;
+	float: left;
+	font: 40px "Verdana";
+	padding: 10px 0px 0px 0px;
+	background: -webkit-linear-gradient(top, rgb(53, 180, 59) 30%, #2697d8 70% );
+	-webkit-background-clip:text;
+	position: relative;
+	 
+}
+
+a{
+	width: 8%;
+	height: 120px;
+	float: left;
+}
+
+a img{
+
+	float: left;
+	width: 80px;
+	height: 80px;
+	box-shadow: 0px 0px 20px 0px #547acc;
+	transition: 0.6s;
+	opacity: .6;
+	filter: grayscale(100%);
+	position: relative;
+}
+
+a img:hover{
+
+	filter: grayscale(0%);
+	width: 80px;
+	height: 80px;
+	-webkit-box-shadow: 0px 0px 5px 5px #79daa4
+}
+
+.copy{
+	width: 90%;
+	height: 140px;
+	margin: 20px auto 20px auto;	 
+	padding-top: 20px;
+	text-align: center;
+}
+
+ 
+}
+
+
+
+/*tablet mode*/
+
+@media(min-width: 401px) and (max-width:800px) {
+
+ 
+body{
+	width: 100%;
+	height: 100%;
+	background-image:-webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../pics/ocean.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	margin: 0px;
+}
+
+
+.container{
+	width: 100%;
+	height: 500px;
+	background: -webkit-linear-gradient(top, hsla(39, 16%, 56%, 0.5) 30%, rgba(51, 41, 53, 0.5) 70%);
+	background-size: cover;
+	position: relative;  
+	
+}
+
+#particles-js{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+}
+
+.header{
+	width: 100%;
+	height: 140px;
+	background:-webkit-linear-gradient(top,  rgb(89, 102, 121, 0.8) 30%, rgb(94, 163, 137, 0.8) 70%);
+	margin: 15px 0px 15px 0px;	
+}
+
+#logo{
+	width: 20%;
+	float: left;
+	height: 100px;
+}
+
+#logo img{
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+.header h1{
+	color:transparent;
+	width: 80%;
+	text-align: center;
+	font: 7vw "Candara";
+	width: 80%;
+	float: left;
+	padding: 20px 0px 0px 0px;
+	margin: 10px 0px 10px 0px;
+	height: 100px;
+	background: -webkit-linear-gradient(top, #1fdfbf 30%, #9b358a 70%);
+	-webkit-background-clip: text;
+	position: relative;
+	 
+}
+
+.form{
+	width: 100%;
+	height: 120px;
+	border: 1x solid green;
+}
+
+fieldset{
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+ 
+
+.form-control{
+	width: 17%;	 
+	border: 1px solid orange;
+	text-align: center;
+	margin: 3px 5px 3px 5px ;
+	background: hsla(210, 60%, 70%, 0.2);
+}
+#name{
+	width: 45%;
+}	 
+ 
+
+form{
+	width:  100%;
+	height: 160px;
+	margin:  auto;
+	float: left;
+	text-align: center;
+ }
+
+label{
+	width: 15%;
+	color: #00fff2;	
+	float: left;
+	margin: 5px 10px 0px 2px;
+	font: 3.5vw "Colona MT";
+
+}
+ 
+
+ #botones{
+	width: 100%;
+	height: 140px;
+	margin: 10px 
+ }
+
+#botones  input{
+	width: 23%;
+	height: 40px;
+	font: 2.5vw "verdana";
+	float: left;
+	padding: 0px 2px 0px 2px;
+	margin: 2% 1% 2% 1%;
+	background: hsla(230, 80%, 90%, 0.3);
+	color:#84ccc5;
+	border: 2px outset orange;
+}
+
+ 
+#botones input:hover{
+	 
+	margin: 2% 1% 2% 1%;
+	font: 1.5vw "Verdana" bold;
+	border: inset #33FF00 3px;
+	background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+	color: orange;
+}
+
+.table{
+	width: 100%;
+	position: relative;
+	float: left;
+	margin: 20px 5px 10px 5px;
+	height: 220px;
+}
+
+.cabecera{
+	width: 100%;
+	height: 50px;
+}
+
+.cabecera h1{
+
+	width: 100%;
+	margin: 10px 0px 0px 0px;
+	background: -webkit-linear-gradient(top, rgba(113, 177, 161, 0.9) 30%, #958797 70%);
+	font: 5vw "Candara";
+	text-align: center;
+	color: transparent;
+	height: 45px;
+	-webkit-background-clip: text;
+	position: relative;
+}
+
+#Mytable{
+	width: 100%;
+	height: 150px;
+	 
+}
+thead{
+	border:none; 
+	width: 47%;
+	margin-right: 3px;
+	font: 1vw "Colona MT";
+}
+
+#registro{
+	width: 100%;
+	height: 130px;
+	margin: 2px 5px 2px 0px;
+	border: 1px solid orange;
+	border-radius: 5px;
+	text-align: left;
+}
+
+tbody{
+width: 100%;
+color: #66c0b7;
+border: 1px solid orange;
+border-radius: 3px;
+height: auto;
+position: relative;
+}
+
+th{
+	width: 30%;
+	height: 20px;
+	font: 3vw "Candara";
+	margin: 0px 20px 0px 0px;
+	color: #CC6666; 
+}
+
+th:nth-child(even) {
+	width: 60%;
+	height: 20px;
+ 
+}
+table{
+	width: 100%;
+	border-radius: 4px;
+}
+
+footer{
+	width:100%;
+	background: -webkit-linear-gradient(top, rgb(89, 102, 121, 0.9) 30%, rgb(94, 163, 137, 0.9) 70% );
+	float: left;
+	margin: 10px 0px 15px 0px;
+	height: 150px;
+}
+
+p{
+	width: 80% ;
+	height: 100px;
+	font: 4.5vw "Candara";
+	text-align: center;
+	padding: 20px 0px 20px;
+	float: left;
+	color: transparent;
+	background: -webkit-linear-gradient(left, hsl(150, 26%, 56%) 30%, #6580a0 70% );
+	-webkit-background-clip: text;
+	position: relative;
+}
+
+a{
+	width: 8%;
+	height: 120px;
+	float: left;
+}
+a img{
+
+	float: left;
+	width: 80px;
+	height: 80px;
+	box-shadow: 0px 0px 20px 0px #000;
+	transition: 0.6s;
+	opacity: .6;
+	filter: grayscale(100%);
+	position: relative;
+}
+
+a img:hover{
+
+	filter: grayscale(0%);
+	width: 80px;
+	height: 80px;
+	-webkit-box-shadow: 0px 0px 5px 5px #79daa4
+}
+.copy{
+	width: 90%;
+	margin: 10px auto 0px auto;
+	height: 140px;
+}
+
+}
+
+
+
+
+
+
+
+
+/*MOVIL MODE*/
+
+@media(max-width: 400px){
+
+ 
+
+body{
+	width: 100%;
+	height: 100%;
+	background-image:-webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../pics/desierto.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;	
+	position: relative;
+}
+
+
+.container{
+	width: 90%;
+	height: 100%;
+	position: relative; 
+	
+}
+
+#particles-js{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+}
+
+#logo img{
+	width:20%;
+	height: 80px;
+	float: left;
+	position: relative;
+}
+.header{
+	width: 100%; 
+	height: 100px;
+	border: 1px solid orange;
+	margin: 15px 0px 15px 0px;
+	background: -webkit-linear-gradient(top, #66c0b7 30%, #7276a8 70%);
+}
+
+
+.header h1{
+	color:transparent;
+	text-align: center;
+	font: 7vw "times New Roman";
+	width: 75%;
+	float: left;
+	padding: 10px 0px 2px 0px;
+	margin: 30px 1px 5px 1px;
+	height: 60px;
+	background: -webkit-linear-gradient(top, #bc8acf 30%, #04a06c 70%);
+	-webkit-background-clip: text;
+	position: relative;
+	 
+}
+
+.form{
+	width: 100%;
+	height: 200px;
+} 
+
+fieldset{
+	width: 100%;
+	height: 130px;
+	position: relative;
+}
+
+.form-control{
+	width: 30%;	
+	text-align: center;
+	position: relative; 
+	margin:0px 0px 5px 0px;
+	background: hsla(210, 60%, 70%, 0.2);
+}
+ #name{
+	width: 70%;
+	 
+ }
+
+form{
+	width:  100%;
+	height: 200px;
+	text-align: center;
+ }
+
+label{
+	width: 15%;
+	color: #00fff2;
+	margin: 10px 10px 0px 10px;
+	float: left;
+	font: 4vw "Colona MT";
+
+}
+
+#botones{
+	width: 100%;
+	float: left;
+	margin: 10px 3px 4px 2px;
+	height: 80px;
+}
+ 
+#botones input{
+	width: 45%;
+	height: 30px;
+	font: 4vw "verdana";
+	margin: 5px 0px 3px 0px;
+	background: hsla(230, 80%, 90%, 0.3);
+	color:#84ccc5;
+	border: 3px outset orange;
+}
+
+ 
+#botones  input:hover{
+	font: 1vw "Verdana" bold;
+	border: inset #33FF00 3px;
+	background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+	color: orange;
+}
+
+.table{
+	width: 100%;
+ 	position: relative;
+	margin: 0px 5px 10px 5px;
+	height: 220px;
+}
+.cabecera{
+	width: 100%;
+	height: 60px;
+}
+
+.cabecera  h1{
+
+	width: 100%;
+	font: 5vw "Candara";
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+	padding: 15px 0px 0px 0px;
+	color: #4bc4a4;
+	height: 40px;
+}
+
+#Mytable{
+	width: 100%;
+	height: 150px;
+	 
+}
+thead{
+	border:none; 
+	font: 1.5vw "Colona MT";
+}
+
+#registro{
+	width: 100%;
+	height: 130px;
+	margin: 2px 5px 2px 0px;
+	border: 1px solid orange;
+	border-radius: 5px;
+	text-align: left;
+}
+
+tbody{
+width: 100%;
+color: #66c0b7;
+border: 1px solid orange;
+border-radius: 3px;
+height: auto;
+position: relative;
+}
+
+th{
+	width: 30%;
+	height: 20px;
+	font: 4vw "Calisto MT";
+	margin: 0px 20px 0px 0px;
+	color: #CC6666; 
+}
+
+th:nth-child(even) {
+	width: 60%;
+	height: 20px; 
+}
+
+table{
+	width: 100%;
+	border-radius: 4px;
+}
+
+footer{
+	width:100%;
+	border: 1px solid orange;
+	background: -webkit-linear-gradient(top, hsla(236, 24%, 55%, 0.4) 30%, rgba(102, 192, 183, 0.4)  70% );
+ 	position: relative;
+	height: 150px;
+}
+
+.copy{
+	width: 100%;
+	margin: 20px 0px 5px 0px;
+	height: 140px;
+}
+
+p{
+	width: 80%;
+	height:120px;
+	color:transparent;
+	float: left;
+	text-align: center;
+	font: 6vw "Candara";
+	padding: 20px 0px 0px 0px;
+	margin: 20px 3px 5px 0px;
+	background: -webkit-linear-gradient(left, #04a06c 30%, #bc8acf 70%);
+	-webkit-background-clip: text;
+	position: relative;
+	 
+}
+
+a{
+	width:40px;
+	float: left;
+	height:60px ;
+	margin:20px 3px 5px 0px ; 
+}
+
+a img{
+	width: 100%;
+	height: 40px;
+	float: left;
+	box-shadow: 0px 0px 20px 0px #000;
+	transition: 0.6s;
+	opacity: .6;
+	filter: grayscale(100%);
+	position: relative;
+}
+
+a img:hover{
+	filter: grayscale(0%);
+	width: 100%;
+	height: 40px;
+	-webkit-box-shadow: 0px 0px 5px 5px #79daa4
+}
+
+
+}
